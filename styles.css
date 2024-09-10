@@ -17,7 +17,8 @@ nav h1 {
     margin: 0;
 }
 
-.about, .team {
+.about,
+.team {
     padding: 20px;
     text-align: center;
 }
@@ -98,7 +99,8 @@ label {
     color: #004d99;
 }
 
-input, textarea {
+input,
+textarea {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -107,7 +109,8 @@ input, textarea {
     transition: border-color 0.3s;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border-color: #004d99;
 }
 
@@ -130,14 +133,18 @@ button:hover {
 .team-contacts {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido horizontalmente */
     padding: 20px;
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 .contact-details {
-    max-width: 400px; /* Establece un ancho máximo para los detalles de contacto */
-    margin: 10px 0; /* Añade espacio entre los miembros del equipo */
+    max-width: 400px;
+    /* Establece un ancho máximo para los detalles de contacto */
+    margin: 10px 0;
+    /* Añade espacio entre los miembros del equipo */
 }
 
 .contact-details h3 {
@@ -147,4 +154,39 @@ button:hover {
 
 .contact-details p {
     margin: 5px 0;
+}
+
+
+
+.caja {
+    max-width: 1500px;
+    padding: 80px;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Imag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.izq {
+    width: 40%;
+    padding: 20px;
+}
+
+.der {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
 }
