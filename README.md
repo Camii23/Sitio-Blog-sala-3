@@ -28,6 +28,7 @@ Este sitio web está enfocado en la comunidad de moteros y ofrece:
 ├── contactenos.html     # Página de contacto con un formulario
 ├── quien.html           # Página "Sobre Nosotros"
 ├── styles.css           # Archivo CSS para estilos globales
+├── style.css            # Archivo CSS específico para la página de contacto
 ├── Pic/                 # Carpeta de imágenes para las motos
 └── README.md            # Este archivo
 ```
